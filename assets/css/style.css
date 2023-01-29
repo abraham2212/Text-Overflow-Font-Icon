@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.items ul{
+
+    display: flex;
+    list-style: none;
+    height: 100px;
+    align-items: center;
+margin-left: 450px;
+
+}
+.item li{
+
+    margin-left: 1000px;
+    font-size: 1200px;
+}
+.item li a{
+
+    text-decoration: none;
+
+}
+.item ul .line{
+
+    height:  20px;
+    background-color: brown;
+    width: 40px;
+    margin-left: 10px;
+    height: 35px;
+}
+
+ /* .content p img{
+
+    width: 1050px;
+    width: 1300px;
+} */
+
+.items h1{
+
+    /* width: 200px;
+    height: 400px; */
+    margin-left: 260px;
+    font-size: 90px;
+    margin-top: 120px;
+
+}
+.items pre{
+
+    font-size: 15px;
+    margin-left: 200px;
+    font-family: 'Aboreto', cursive;
+}
+body  {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("../../media/examples/lizard.png");
+  }
+  .items img{
+    margin-left: 500px;
+    width: 230px;
+  }
